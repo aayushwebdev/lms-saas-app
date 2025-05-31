@@ -26,10 +26,10 @@ const SubjectFilter = () => {
               params: searchParams.toString(),
               key: 'subject',
               value: subject,
-            })
+            });
           }
           router.push(newUrl, {scroll: false})
-      }, [subject]);
+      }, [subject, router, searchParams]);
   
   return (
     <Select onValueChange={setSubject} value={subject}>
