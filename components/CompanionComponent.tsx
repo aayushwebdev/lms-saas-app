@@ -165,7 +165,7 @@ const CompanionComponent = ({ subject, topic, name, userName, userImage, style, 
                     })}
                 </div>
 
-                {/* <div className="transcript-fade" /> */}
+                <div className="transcript-fade" />
             </section>
         </section>
     )
